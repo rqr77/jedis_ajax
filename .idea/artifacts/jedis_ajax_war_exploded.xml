@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jedis+ajax:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jedis_ajax_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jedis+ajax/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jedis+ajax" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="lib (2)" module-name="jedis+ajax" />
+          <element id="library" level="module" name="lib" module-name="jedis+ajax" />
+          <element id="library" level="module" name="lib (3)" module-name="jedis+ajax" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.15" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
